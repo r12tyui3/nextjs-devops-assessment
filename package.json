@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-devops-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DevOps Assessment by Ritika Singh - Containerized Next.js app with Docker, GHCR, and Kubernetes deployment",
+  "author": "Ritika Singh (r12tyui3) <singhritika7488@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r12tyui3/nextjs-devops-assessment.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
