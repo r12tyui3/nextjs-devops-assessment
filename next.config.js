@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'standalone',
+  trailingSlash: false,
   experimental: {
-    typedRoutes: true
+    esmExternals: false
   }
 };
 
